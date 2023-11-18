@@ -13,12 +13,12 @@ public class Condominio {
 		this.nombre = nombre;
 	}
 
-	public String getDirección() {
-		throw new UnsupportedOperationException();
+	public String getDireccion() {
+		return this.direccion;
 	}
 
-	public void setDirección(String dirección) {
-		throw new UnsupportedOperationException();
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
 	}
 
 	public void gestionarCasas() {

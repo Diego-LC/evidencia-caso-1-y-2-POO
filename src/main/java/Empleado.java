@@ -5,6 +5,7 @@ public class Empleado extends Persona {
 	private GrupoProyecto grupoDeProyecto;
 	private EmpresaNaviera empresa;
 	private ArrayList<Empleado> colegas = new ArrayList<Empleado>();
+	private GrupoProyecto grupoProyecto;
 
 	public Departamento getDepartamento() {
 		return this.departamento;
